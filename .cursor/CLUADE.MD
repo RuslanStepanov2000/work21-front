@@ -136,7 +136,7 @@ interface Project {
   requirements?: string;
   budget: number;
   deadline?: string;
-  tech_stack?: string | string[];
+  tech_stack?: string | string[]; // Может быть JSON строка или массив
   status: 'draft' | 'open' | 'in_progress' | 'review' | 'completed' | 'cancelled';
   customer_id: number;
   assignee_id?: number;
